@@ -1,16 +1,18 @@
 // ===================== FIREBASE INIT =====================
 const firebaseConfig = {
-  apiKey: "AIzaSyD0efUT_IFoPQ3svHnu89j7kyWE6OYnWtE",
-  authDomain: "the-tech-world-e2b7c.firebaseapp.com",
-  projectId: "the-tech-world-e2b7c",
-  storageBucket: "the-tech-world-e2b7c.firebasestorage.app",
-  messagingSenderId: "435175920778",
-  appId: "1:435175920778:web:09c9e899d71afce34c0973"
+  apiKey: "AIzaSyB41tS5jK6nwFoV8IIgFbIkP6Q1QSb5Uos",
+  authDomain: "apppp-98a09.firebaseapp.com",
+  projectId: "apppp-98a09",
+  storageBucket: "apppp-98a09.firebasestorage.app",
+  messagingSenderId: "294111503812",
+  appId: "1:294111503812:web:0b1e2cde7d83937893f091",
+  measurementId: "G-EVKCXLEQLE"
 };
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
+
 
 // ===================== PAGE LOAD =====================
 window.addEventListener("DOMContentLoaded", () => {
